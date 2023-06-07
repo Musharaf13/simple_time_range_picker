@@ -134,7 +134,7 @@ class _TimeRangeDialogState extends State<_TimeRangeDialog>
               : _kTimePickerHeightLandscape,
           child: Scaffold(
             appBar: TabBar(
-                labelColor: Theme.of(context).textTheme.bodyText1!.color,
+                labelColor: Theme.of(context).textTheme.titleSmall!.color,
                 controller: _tabController,
                 tabs: [
                   Tab(
